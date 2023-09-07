@@ -2,24 +2,26 @@ root = true
 
 # All files
 [*]
+charset = utf-8
 indent_style = space
+
+# Indentation and spacing
+indent_size = 2
+tab_width = 2
+
+# New line preferences
+end_of_line = lf
+insert_final_newline = true
+
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
 
 # Xml files
 [*.xml]
 indent_size = 2
-
-# C# files
-[*.cs]
-
-#### Core EditorConfig Options ####
-
-# Indentation and spacing
-indent_size = 4
-tab_width = 4
-
-# New line preferences
-end_of_line = crlf
-insert_final_newline = false
+insert_final_newline = true
 
 #### .NET Coding Conventions ####
 [*.{cs,vb}]
@@ -132,7 +134,7 @@ csharp_new_line_before_else = true
 csharp_new_line_before_finally = true
 csharp_new_line_before_members_in_anonymous_types = true
 csharp_new_line_before_members_in_object_initializers = true
-csharp_new_line_before_open_brace = all
+csharp_new_line_before_open_brace = none
 csharp_new_line_between_query_expression_clauses = true
 
 # Indentation preferences

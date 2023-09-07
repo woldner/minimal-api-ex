@@ -5,10 +5,7 @@
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
   "omnisharp.enableEditorConfigSupport": true,
-  "[csharp]": {
-    "editor.defaultFormatter": "csharpier.csharpier-vscode",
-    "editor.maxTokenizationLineLength": 2500,
-    "editor.inlineSuggest.suppressSuggestions": false
-  }
 }
